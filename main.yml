@@ -12,7 +12,7 @@ jobs:
         id: get_square
         uses: ./ # Uses an action in the root directory
         with:
-          num: 11
+          num: 13
       - name: Print the square
         run: echo "${{ steps.get_square.outputs.num_squared }}"
         
